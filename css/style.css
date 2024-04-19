@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+.btn--size {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+}
+.wrapper {
+    margin: auto;
+}
+.buttons-wrap {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    padding: 60px 20px 20px;
+    border-radius: 5px;
+}
+.buttons-wrap--active {
+    display: block;
+}
+.timer {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.current-number {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.result {
+    display: none;
+    text-align: center;
+}
+.result--active {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 5px;
+    width: 280px;
+    padding: 40px 20px 20px;
+}
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.overlay--active {
+    display: block;
+}
+.progress {
+    height: 6px;
+}
